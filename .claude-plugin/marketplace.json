@@ -1,0 +1,121 @@
+{
+  "name": "agent-sdd",
+  "description": "Agent-SDD Framework - Structured software development with 16 specialized sub-agents, automated analytics, living architecture diagrams, and framework resilience capabilities",
+  "owner": {
+    "name": "AI Ventures",
+    "email": "info@agent-sdd.com"
+  },
+  "homepage": "https://github.com/ai-ventures-hub/agent-sdd-claude-plugin",
+  "repository": "https://github.com/ai-ventures-hub/agent-sdd-claude-plugin.git",
+  "license": "MIT",
+  "plugins": [
+    {
+      "name": "agent-sdd-framework",
+      "description": "Complete Agent-SDD framework for structured software development with specialized sub-agents",
+      "version": "1.0.0",
+      "source": ".claude",
+      "author": {
+        "name": "AI Ventures",
+        "email": "info@agent-sdd.com"
+      },
+      "homepage": "https://github.com/ai-ventures-hub/agent-sdd-claude-plugin",
+      "repository": "https://github.com/ai-ventures-hub/agent-sdd-claude-plugin.git",
+      "license": "MIT",
+      "commands": [
+        {
+          "name": "sdd-task",
+          "description": "Main Agent-SDD framework command dispatcher",
+          "usage": "sdd-task --<flag> [arguments]",
+          "examples": [
+            "sdd-task --init",
+            "sdd-task --design SPEC-001",
+            "sdd-task --develop SPEC-001",
+            "sdd-task --execute SPEC-001",
+            "sdd-task --improve SPEC-001",
+            "sdd-task --bootstrap",
+            "sdd-task --evolve"
+          ]
+        }
+      ],
+      "agents": [
+        {
+          "name": "project_analyzer",
+          "description": "Analyze existing project structure and gather overview context"
+        },
+        {
+          "name": "project_starter",
+          "description": "Create new projects from scratch with full setup"
+        },
+        {
+          "name": "file_creator",
+          "description": "Create files and directories for Agent-SDD workflows"
+        },
+        {
+          "name": "task_decomposer",
+          "description": "Analyzes spec complexity and decomposes into manageable tasks"
+        },
+        {
+          "name": "task_schema_validator",
+          "description": "Validate task objects against 14-field schema"
+        },
+        {
+          "name": "designer",
+          "description": "Dual-purpose agent for wireframes/user-journeys and theme consultation"
+        },
+        {
+          "name": "test_runner",
+          "description": "Execute tests and analyze results for Agent-SDD tasks"
+        },
+        {
+          "name": "code_reviewer",
+          "description": "Expert code review specialist for quality and standards"
+        },
+        {
+          "name": "style",
+          "description": "Theme standards enforcement agent"
+        },
+        {
+          "name": "logger",
+          "description": "Read and write changelog and roadmap tracking"
+        },
+        {
+          "name": "analytics_collector",
+          "description": "Advanced framework analytics with predictive capabilities"
+        },
+        {
+          "name": "framework_improver",
+          "description": "Advanced framework evolution specialist"
+        },
+        {
+          "name": "architecture_visualizer",
+          "description": "Generate and maintain living Mermaid architecture diagrams"
+        },
+        {
+          "name": "context_manager",
+          "description": "Manage workflow-scoped context caching"
+        },
+        {
+          "name": "date_checker",
+          "description": "Provides consistent date formatting"
+        },
+        {
+          "name": "agent_registry_validator",
+          "description": "Validates agent registry integrity"
+        }
+      ],
+      "tags": [
+        "development",
+        "framework",
+        "architecture",
+        "analytics",
+        "testing",
+        "code-review",
+        "documentation",
+        "project-management"
+      ],
+      "requirements": {
+        "claude-code": ">=0.1.0"
+      }
+    }
+  ]
+}
