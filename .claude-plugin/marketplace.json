@@ -22,10 +22,25 @@
       "repository": "https://github.com/ai-ventures-hub/agent-sdd-claude-plugin.git",
       "license": "MIT",
       "commands": [
-        "./commands/"
+        "./commands/sdd-task.md"
       ],
       "agents": [
-        "./agents/"
+        "./agents/project_analyzer.md",
+        "./agents/project_starter.md",
+        "./agents/file_creator.md",
+        "./agents/task_decomposer.md",
+        "./agents/task_schema_validator.md",
+        "./agents/designer.md",
+        "./agents/test_runner.md",
+        "./agents/code_reviewer.md",
+        "./agents/style.md",
+        "./agents/logger.md",
+        "./agents/analytics_collector.md",
+        "./agents/framework_improver.md",
+        "./agents/architecture_visualizer.md",
+        "./agents/context_manager.md",
+        "./agents/date_checker.md",
+        "./agents/agent_registry_validator.md"
       ],
       "tags": [
         "development",
