@@ -13,7 +13,7 @@ To add this marketplace to Claude Code:
 Then install the Agent-SDD framework:
 
 ```bash
-/plugin install agent-sdd-framework
+/plugin install agent-sdd
 ```
 
 ## Features
